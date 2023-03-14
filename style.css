@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    }
+    h6 {
+    font-family: mySecondFont;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    }
+
+    .PlanBetterHead{
+    font-family: myFirstFont;
+    font-size: 110pt;
+    color: white;
+    text-align: center;
+    }
+    .ReviewHeading{
+    font-family: myFirstFont;
+    font-size: 75pt;
+    color: white;
+    text-align: left;
+    padding: 40px;
+    }
+    .button {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16pt;
+        font-family: mySecondFont;
+        margin: auto;
+        cursor: pointer;
+        
+    }
+    .button1{width: 150px}
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: clear;
+    }
+    li{
+        float: right;
+        background-color: white;
+    }
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: myFirstFont;
+    }
+    li a:hover {
+        background-color: grey;
+      }
+      
+
+
+
+
+
+
+
+    @font-face {
+    font-family: mySecondFont;
+    src: url(YesevaOne-Regular.ttf);
+    }
+
+    @font-face {
+    font-family: myFirstFont;
+    src: url(Migra-Extrabold.otf);
+    }
